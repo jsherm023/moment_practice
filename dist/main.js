@@ -77,7 +77,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
+/******/ 	__webpack_require__.p = "dist";
 /******/
 /******/
 /******/ 	// Load entry module and return exports
@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\nvar math = __webpack_require__(/*! mathjs */ \"./node_modules/mathjs/index.js\");\n\nconsole.log(\"i'm in index.js\");\nconsole.log(math.sqrt(-4));\nconsole.log(moment(\"20241031\", \"YYYYMMDD\").fromNow());\n\n//# sourceURL=webpack:///./index.js?");
+eval("var moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\n\nvar math = __webpack_require__(/*! mathjs */ \"./node_modules/mathjs/index.js\");\n\nconsole.log(\"i'm in index.js\");\nconsole.log(math.sqrt(-4));\nconsole.log(moment(\"20241031\", \"YYYYMMDD\").fromNow());\nvar name = \"Bob\",\n    time = \"today\";\nconsole.log(\"Hello \".concat(name, \", how are you \").concat(time, \"?\"));\nconsole.log(\"goodbye\");\n\n//# sourceURL=webpack:///./index.js?");
 
 /***/ }),
 
